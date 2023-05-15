@@ -13,7 +13,7 @@ Aclaraciones:
 # HISTORIA DE USUARIO<br>
 ![](img/Historiadeusuario.PNG) ![](width='80px')
 # CASO DE USO <br>
-![](img/Casodeuso.png) ![](width='80px')
+![](img/Casodeuso.PNG) ![](width='80px')
 
 Descripcion caso de uso:
 
