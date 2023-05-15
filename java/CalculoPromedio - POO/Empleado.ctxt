@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Empleado
+comment1.params=identificacion\ nombre\ area\ semana1\ semana2\ semana3
+comment1.target=Empleado(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double,\ double)
+comment2.params=
+comment2.target=double\ getTotalVentas()
+numComments=3
