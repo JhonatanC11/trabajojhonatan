@@ -11,9 +11,9 @@ Aclaraciones:
     • No se realiza validación, ni se verifica calidad en los datos ingresados.
 
 # HISTORIA DE USUARIO<br>
-![](img/Historiadeusuario.png) ![](width='80px')
+![](img/Historiadeusuario.PNG) ![](width='80px')
 # CASO DE USO <br>
-![](img/Casodeuso.png) ![](width='80px')
+![](img/Casodeuso.PNG) ![](width='80px')
 
 Descripcion caso de uso:
 
