@@ -1,23 +1,33 @@
-
-import java.util.Scanner;
-class Empleado {
+public class Empleado {
     private String identificacion;
     private String nombre;
     private String area;
-    private double semana1;
-    private double semana2;
-    private double semana3;
+    private double[] ventas;
 
-    public Empleado(String identificacion, String nombre, String area, double semana1, double semana2, double semana3) {
+    public Empleado(String identificacion, String nombre, String area, double[] ventas) {
         this.identificacion = identificacion;
         this.nombre = nombre;
         this.area = area;
-        this.semana1 = semana1;
-        this.semana2 = semana2;
-        this.semana3 = semana3;
+        this.ventas = ventas;
     }
 
-    public double getTotalVentas() {
-        return semana1 + semana2 + semana3;
+    public double calcularPromedio() {
+        double suma = 0;
+        for (double venta : ventas) {
+            suma += venta;
+        }
+        return suma / ventas.length;
+    }
+
+    public String getIdentificacion() {
+        return identificacion;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getArea() {
+        return area;
     }
 }
